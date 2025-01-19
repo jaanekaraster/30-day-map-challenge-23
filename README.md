@@ -9,7 +9,7 @@ Whether it's mapping cities, visualizing movement, or experimenting with new dat
 
 | Day  | Theme     | Description             | Topic |
 |------|------------|-------------------|-----------|
-| 1    | **Points**   |         | [Crow Density in Mumbai](https://github.com/jaanekaraster/30-day-map-challenge-23/day1_points/day1.png) |
+| 1    | **Points**   |         | [Crow Density in Mumbai](https://jaanekaraster.github.io/30-day-map-challenge-23/day1_points/day1.png) |
 | 2    | **Lines**   | | [Divided Islands]() |
 | 3    | **Polygons**   |     | [West Bengal State]() |
 | 4    | **A Bad Map**  |       | [Meteorites' Impact on US Public Policy]()  |
@@ -39,3 +39,8 @@ Whether it's mapping cities, visualizing movement, or experimenting with new dat
 | 28   | **Chart or Map**  |  |[Star Forts]()  |
 | 29   | **Population**  |       |[Solar Eclipse]()  |
 | 30   | **Favorite Map** |  |[Harry Potter Translations]() |
+
+
+## Day 1: Points
+This was a great opportunity to dive into a species I find fascinating, the Indian House Crow (Corvus splendens). 
+![day1 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day1_points/day1.png)
