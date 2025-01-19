@@ -44,3 +44,10 @@ Whether it's mapping cities, visualizing movement, or experimenting with new dat
 ## Day 1: Points
 This was a great opportunity to dive into a species I find fascinating, the Indian House Crow (Corvus splendens). 
 ![day1 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day1_points/day1.png)
+
+## Day 5: Analog
+
+India is a land of regional dietary diversity, with distinct geographic preferences for wheat vs. rice 🌾🍚 
+
+Inspired by the “Wheat vs Rice” map by #indiainpixels. 
+![day5 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day5_analog/day5.jfif)
