@@ -15,7 +15,7 @@ Note: Felt changed its business model in early 2024, and has paywalled many of i
 
 A good lesson to freelancers to prioritize open source, and a good goal for next year's challenge :)
 
-Check out my maps below--I'd love to hear from you!
+Check out my maps below--I'd love to [hear from you](https://www.jacobkohn.dev/)!
 
 ### Challenge Themes
 
@@ -64,6 +64,8 @@ There are four species of crow native to India:
 - Indian Jungle Crow (Corvus culminatus)
 - Large-Billed Crow (Corvus macrorhynchos)
 - Eastern Jungle Crow (Corvus levaillantii)
+<h2 id="Day-1:-Points">Day 1: Points</h2>
+
 
 This map shows 30 days of citizen observations within a 30-km radius of Mumbai's Chhatrapati Shivaji Maharaj International Airport (BOM), the only place in the city where humans can take flight. 
 
