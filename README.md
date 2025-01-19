@@ -9,7 +9,7 @@ Whether it's mapping cities, visualizing movement, or experimenting with new dat
 
 | Day  | Theme     | Description             | Topic |
 |------|------------|-------------------|-----------|
-| 1    | **Points**   |         | [Crow Density in Mumbai](https://github.com/jaanekaraster/30-day-map-challenge-23/blob/main/day1_points/day1.png) |
+| 1    | **Points**   |         | [Crow Density in Mumbai](https://github.com/jaanekaraster/30-day-map-challenge-23/day1_points/day1.png) |
 | 2    | **Lines**   | | [Divided Islands]() |
 | 3    | **Polygons**   |     | [West Bengal State]() |
 | 4    | **A Bad Map**  |       | [Meteorites' Impact on US Public Policy]()  |
@@ -22,7 +22,7 @@ Whether it's mapping cities, visualizing movement, or experimenting with new dat
 | 11   | **Retro**  |        | [Isla de California]() |
 | 12   | **South America**  |  |[The Darien Gap]()  |
 | 13   | **Choropleth**  |     |[Pre-Civil War Slaves per Slaveholder]()  |
-| 14   | **Europe**   |  |[The Danube: Europe's "Heartland Highway"]  |
+| 14   | **Europe**   |  |[The Danube: Europe's "Heartland Highway"]()  |
 | 15   | **OSM**  |        | [Mumbai Metro Accessibility]() |
 | 16   | **Oceania**  |    |[Nuclear Tests in Oceania]()  |
 | 17   | **Flow**  |   |[Tracking Slave Voyages]()  |
