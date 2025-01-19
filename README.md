@@ -6,7 +6,7 @@ Each day offers a new theme, hopefully sparking fresh ideas and pushing the boun
 Whether it's mapping cities, visualizing movement, or experimenting with new data, every map tells a unique story. Completing all 30 days is an ambitious goal, but it’s all about the journey—discovering new techniques, learning from others, and exploring the many ways maps can reveal insights about our world. Check out my maps below--I'd love to hear from you!
 
 ### Challenge Themes
-[ ▶ Process Video]
+[▶ Process Video]
 
 | Day  | Theme     | Description             | Topic |
 |------|------------|-------------------|-----------|
@@ -273,6 +273,11 @@ State raster images from David Rumsey Map Center at Stanford University Librarie
 
 
 ## Day 22: North is Not Always Up
+<video width="640" height="360" controls>
+  <source src="[day22 video](https://github.com/jaanekaraster/30-day-map-challenge-23/raw/refs/heads/main/day30_favorite/day30.mp4)" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ![day22 video](https://jaanekaraster.github.io/30-day-map-challenge-23/day22_north/day22.mp4)
 
 🧭 1000 years ago, the Global South was the Global North!
@@ -416,10 +421,10 @@ A few thoughts that helped me get through this month's mapping marathon:
 With these thoughts in mind, sharing my approach and toolkit: 
 Unlike the previous year where I focused on making each map exclusively in hashtag#RStudio, this year I wanted to push the boundaries of Felt's new features and discover ways to automate the mapmaking process. 
 
-✨ hashtag#ChatGPT: Quickly geocoding large data sets and debugging Python code
-🐍 hashtag#Excel and hashtag#Python: Previewing, cleaning up and curating data sets 
-🌎 hashtag#QGIS: Exploring geospatial data sets locally (useful for low-bandwidth situations during the Challenge) and creating/editing data
-🌐 hashtag#Felt: Importing/styling maps, performing transformations like clipping and buffering on-the-fly, and unlocking a way to share and explore maps interactively
+✨ ChatGPT: Quickly geocoding large data sets and debugging Python code
+🐍 Excel and hashtag#Python: Previewing, cleaning up and curating data sets 
+🌎 QGIS: Exploring geospatial data sets locally (useful for low-bandwidth situations during the Challenge) and creating/editing data
+🌐 Felt: Importing/styling maps, performing transformations like clipping and buffering on-the-fly, and unlocking a way to share and explore maps interactively
 
 Shoutout to Felt for accelerating the process to develop and deploy many of these maps! 
 
