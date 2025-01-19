@@ -5,7 +5,17 @@ The 30 Day Map Challenge is an exciting opportunity to dive into the world of ca
 
 Each day offers a new theme, hopefully sparking fresh ideas and pushing the boundaries of traditional mapping. 
 
-Whether it's mapping cities, visualizing movement, or experimenting with new data, every map tells a unique story. Completing all 30 days is an ambitious goal, but it’s all about the journey—discovering new techniques, learning from others, and exploring the many ways maps can reveal insights about our world. Check out my maps below--I'd love to hear from you!
+Whether it's mapping cities, visualizing movement, or experimenting with new data, every map tells a unique story. Completing all 30 days is an ambitious goal, but it’s all about the journey—discovering new techniques, learning from others, and exploring the many ways maps can reveal insights about our world. 
+
+## This year's focus: Felt
+
+This year, I was an "ambassador" (read: early adopter) for the new Felt mapping platform. So my goal was to test the limits of their platform with as many maps as possible for this challenge. 
+
+Note: Felt changed its business model in early 2024, and has paywalled many of its basic features which were available in 2023. Unfortunately there is no plan to accommodate projects which were completed before this change, and as a result, the Felt maps below are no longer fully visible. 
+
+A good lesson to freelancers to prioritize open source, and a good goal for next year's challenge :)
+
+Check out my maps below--I'd love to hear from you!
 
 ### Challenge Themes
 
