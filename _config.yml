@@ -3,3 +3,4 @@ description: "Daily maps for 2023 by @jaanekaraster"
 #theme: jekyll-theme-minimal  # Or any other Jekyll theme name
 #theme: jekyll-theme-cayman
 theme: jekyll-theme-slate
+header_image: /all_2023.jpg
