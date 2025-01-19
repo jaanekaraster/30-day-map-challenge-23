@@ -1,3 +1,5 @@
+![header image](https://jaanekaraster.github.io/30-day-map-challenge-23/all_2023.jpeg)
+
 # 30 Day Map Challenge 2023
 The 30 Day Map Challenge is an exciting opportunity to dive into the world of cartography, data visualization, and creative mapping! 
 
@@ -6,7 +8,6 @@ Each day offers a new theme, hopefully sparking fresh ideas and pushing the boun
 Whether it's mapping cities, visualizing movement, or experimenting with new data, every map tells a unique story. Completing all 30 days is an ambitious goal, but it’s all about the journey—discovering new techniques, learning from others, and exploring the many ways maps can reveal insights about our world. Check out my maps below--I'd love to hear from you!
 
 ### Challenge Themes
-[▶ Process Video]
 
 | Day  | Theme     | Description             | Topic |
 |------|------------|-------------------|-----------|
@@ -121,7 +122,9 @@ Its precision laid the foundation for modern geospatial technologies. For this I
 
 ![day8 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day8_africa/day8_2.png)
 
-I dug up some data on the 60+ museums which hold the highest number of ancient Egyptian artifacts. 
+This day was more of a data visualization exercise, to understand where ancient Egyptian artifacts are on display (or, more likely, in storage) around the world.
+
+I dug up some data on the 60+ museums which hold the highest number of ancient Egyptian artifacts and dropped the sheet into Felt for a quick visualization.
 
 Top countries: 
 1. UK: 302K
@@ -136,7 +139,9 @@ Top countries:
 
 ![day9 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day9_hexagons/day9_gender.png)
 
-Walking through the streets of Mumbai, you'll likely pass Vijay or Rajshree. But these aren't people. They're apartment names! This was an update from last year's web scraping/NLP effort to see if naming patterns of apartments have a geographic correlation.
+In the US, we tend to name buildings using famous surnames or areas, such as "The Biltmore" or "Garden View." It's less common to see buildings named "Robert" or "Maria." In India, however, this is a relatively common practice, finding a "Vijay" or "Rajshree" building as you walk down the street. 
+
+This map was an update from last year's web scraping/NLP effort around apartment names in Mumbai. Last year's map had been made in R and wasn't optimized for public exploration, so I dropped the data into Felt to help viewers discover geographic correlations. 
 
 [Felt Map](https://rebrand.ly/7565e3)
 
@@ -144,7 +149,7 @@ Walking through the streets of Mumbai, you'll likely pass Vijay or Rajshree. But
 
 ![day10 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day10_northamerica/day10.png)
 
-I mapped US & Canada oil and gas wells and pipelines.
+I mapped US & Canada oil and gas wells and pipelines. It was a challenge to get this data as it wasn't all contained within a single source, but the visualization does the job.
 
 [Felt Map](https://rebrand.ly/90aej2y)
 
@@ -160,19 +165,18 @@ I took one of the maps and georeferenced it to real-world geographies to explore
 ## Day 12: South America
 ![day12 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day12_southamerica/day12_1.png)
 
-The Darien Gap, a mountainous jungle region (dis)connecting North and South America, is a notoriously dangerous terrain for hashtag#migrants who must traverse 100-150mi (160-240km) by 🛶 - 🚶‍♂️ - 🚣‍♂️ - 🚌 
+The Darien Gap, a mountainous jungle region (dis)connecting North and South America, is a notoriously dangerous terrain for migrants who must traverse 100-150mi (160-240km) by 🛶 - 🚶‍♂️ - 🚣‍♂️ - 🚌  Starting from maps like [this one](https://data.unhcr.org/en/documents/details/100506) from UNHCR, I wanted to help the viewer decide which path to take by zooming and panning the map, and turning layers on and off to better understand the rugged topography. 
 
 [day12 image sub](https://jaanekaraster.github.io/30-day-map-challenge-23/day12_southamerica/day12_2.png)
  
 [Felt Map](https://rebrand.ly/2f22ba)
-Based on maps like [this one](https://data.unhcr.org/en/documents/details/100506) from UNHCR.
 
 ## Day 13: Choropleth
 ![day13 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day13_choropleth/day13.png)
 
 How many slaves per slaveholder were there in the pre-Civil War American South?
 
-A key cause of the U.S. Civil War (1861-1865) was the fundamental disagreement over whether slavery should be allowed to continue. This map shows the ratio of slaves to slaveholders on a countywide basis (1860). 
+A key cause of the U.S. Civil War (1861-1865) was the fundamental disagreement over whether slavery should be allowed to continue. This map shows the ratio of slaves to slaveholders on a countywide basis (1860). IPUMS has a wonderful archive of historical boundaries for the US, which helped provide accurate context for the map's content. I went for a muted green gradient to match the tan base layer, giving more of a historical map feel. 
 
 In the [Felt map](https://rebrand.ly/79fog9z), you can overlay the location of every battle fought during the Civil War period.
 
@@ -183,6 +187,8 @@ Data sourced from National Park Service + IPUMS.
 
 Some 85% of the Danube River's length is navigable; passing through four capitals, it has long been a connector of trade and ideas throughout Europe's heartland.
 
+The challenge of this map was being able to show the topography, watersheds, and population in a single map. I explored how Felt could easily clip, buffer, and aggregate data all within the browser. I created buffers within 50km/30mi of the Danube and its arteries, clipped the population data on these buffers, and annotated the map with the capitals along the Danube. 
+
 [Felt map](https://rebrand.ly/z0bd4n5)
 
 Data from [Kontur](https://data.humdata.org/dataset/kontur-population-dataset) + [FAO](https://www.fao.org/aquastat/en/countries-and-basins/).
@@ -190,9 +196,11 @@ Data from [Kontur](https://data.humdata.org/dataset/kontur-population-dataset) +
 ## Day 15: OSM
 ![day15 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day15_osm/day15.png)
 
-Where can commuters walk <1 km to access Mumbai Metro?
+Mumbai, a city of around 25 million including the metro area, is one of the world's rapidly expanding "megacities." It has several local train lines and a single metro, but many more metro lines are planned and in progress. One of the big questions today is what proportion of this urban population will actually use these Metro lines once they're finished, and how much these lines will reduce road traffic in the process. 
 
-Thanks to Geoff Boeing for the OSMNX Python package which creates road networks from OSM; I used various isochrone plugins in QGIS to find the road network distances. 
+Given these developments, which areas are within a 1km or less walking distance from each station? (Showing only currently completed lines)
+
+Thanks to Geoff Boeing for the [OSMNX](https://geoffboeing.com/publications/osmnx-paper/) Python package which creates road networks from OSM; I used various isochrone plugins in QGIS to find the road network distances. 
 
 [Felt Map](https://rebrand.ly/ilmsepz)
 
@@ -201,7 +209,7 @@ Data from [OpenStreetMap](https://www.openstreetmap.org/) and [MMRDA](https://mm
 ## Day 16: Oceania
 ![day16 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day16_oceania/day16.png) 
 
-Oppenheimer marked the start of the nuclear age--tests which led to the forced migration of Pacific Islander populations and the contamination of marine life across the region. 
+Oppenheimer marked the start of the nuclear age--tests which led to the forced migration of Pacific Islander populations and the contamination of marine life across the region. This map aimed to communicate both the scale of these tests and of the Pacific Ocean itself. Multiple lengths of the United States could fit inside the South Pacific and you still wouldn't reach Asia!
 
 [Felt map](https://rebrand.ly/knfqe40)
 
@@ -210,17 +218,17 @@ Data from [Secretariat of the Pacific Regional Environment Programme (SPREP)](ht
 ## Day 17: Flow
 ![day17 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day17_flow/day17.png)
 
-We're now just past the halfway point of the challenge; a sobering reminder that this month is not just about showing off your amazing maps, but also to share your map failures!
+This day was just past the halfway point of the challenge, and for me, a reminder that this month is not just about showing off one's amazing maps, but also one's map failures!
 
-In light of this, some learnings from Day 17: 
-👉 hashtag#ChatGPT is a great tool for hashtag#geocoding large data sets if you just need it done quickly 👨🏻‍💻️
-👉 Despite the SlaveVoyages resource being extremely detailed and well-structured, there were differences in historical place names or vague references based on the primary source data (i.e. "Africa, port unspecified") that needed to be dealt with or filtered out 🤷🏻‍♂️
-👉 Once all the point locations were in place, connecting them proved more difficult than expected. I tried and failed to do this using the hashtag#python Searoute library. Maybe the issue was that the AI-geocoded points weren't accessible by sea? For whatever reason, the geocoded CSV and the routing algorithms didn't want to play nice together 😭
-👉 Fortunately, the hashtag#QGIS plugin ShapeTools came to the rescue, allowing me to make straight-line, geodesic, or Great Circle lines between multiple point layers 🎉
+Some learnings from Day 17: 
+👉 ChatGPT is a great tool for geocoding large data sets if you just need it done quickly.
+👉 Despite the SlaveVoyages resource being extremely detailed and well-structured, there were differences in historical place names or vague references based on the primary source data (i.e. "Africa, port unspecified") that needed to be dealt with or filtered out.
+👉 Once all the point locations were in place, connecting them proved more difficult than expected. I tried and failed to do this using the Python Searoute library. Maybe the issue was that the AI-geocoded points weren't accessible by sea? For whatever reason, the geocoded CSV and the routing algorithms didn't want to play nice together.
+👉 Fortunately, the QGIS plugin ShapeTools came to the rescue, allowing me to make straight-line, geodesic, or Great Circle lines between multiple point layers.
 
 The result: Mapping the Trans-Atlantic Slave Trade, a sample of 5800+ voyages between 1754 and 1842.
 
-Sometimes you have to lower your expectations and go with the hashtag#flow to simply finish the job.
+Sometimes you have to lower your expectations and "go with the flow" to simply finish the job. Of all the maps from the challenge, this was one of those I was most proud of, and I felt it communicated the topic effectively while allowing for viewer exploration. 
 
 [Felt Map](https://rebrand.ly/pxfr2me)
 
@@ -230,16 +238,20 @@ Rice University Emory Center for Digital Scholarship UC Irvine University of Cal
 ## Day 18: Atmosphere
 ![day18 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day18_atmosphere/day18.gif)
 
-Taking an atmosphere-level view using hashtag#landsat, we can see the shifting course of the Brahmaputra river over 20 years. 
+This map used the Python [Geemap](https://geemap.org/) package, which integrates with Google Earth Engine. Geemap allows you to access GEE, get satellite data, and run it within Colab notebooks or locally--making it easy to swap out data sources, run multiple iterations, and get standardized outputs that save time. This is particularly valuable for satellite imagery, since those images can take up huge amounts of hard drive space--much better to connect to a streaming service so that you have it only when you need it. I simply selected a region of interest and specified a timelapse series of images to combine into a single GIF. 
 
-Made using the Python [Geemap](https://geemap.org/) package (integrating with Google Earth Engine), featuring a user-friendly interface that allows you to select a region of interest and specify a timelapse series of images to combine into a single GIF. 
+This map also taught me that a map's popularity and your individual level of effort don't always correlate. This was just a few lines of code based on the Geemap tutorial to export the images into a GIF, but it got several thousand impressions and hundreds of likes on social media. My theory is that it had bright colors, referenced some popular or trending hashtags like Python and Geemap, and was an eye-catching animation. But who knows. 
+
+At any rate, it was pretty cool to see the shifting course of the Brahmaputra river over 20 years, from an atmosphere-level view using LANDSAT imagery. 
 
 Data from Landsat TM-ETM-OLI 2003-2023.
 
 ## Day 19: 5-Minute Map
-![day19 image]()
+![day19 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day19_5minutemap/day19.MOV)
 
-Did you know that people in hashtag#Iceland sometimes speak "on inhalation"--that initial unconscious breath we take when opening our mouths to speak? 
+I always like these opportunities to make analog maps because they make you really think about where things are in relation to each other. I had to draw a few rounds of Iceland's shape before I got one that I was happy with, then furiously added fill, annotations, and of course the flag to complete it in 5 minutes. 
+
+Did you know that people in Iceland sometimes speak "on inhalation"--that initial unconscious breath we take when opening our mouths to speak? 
 Learn more at [Arctic Adventures](https://adventures.is/blog/iceland-facts/).
 
 "On exhalation"--that final sigh of relief after you finish drawing a map in 5 minutes 😮‍💨
@@ -249,11 +261,13 @@ Made with Procreate.
 ## Day 20: Outdoors
 ![day20 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day20_outdoors/day20.png)
 
-When hiking in the Western Ghats of India, always: 
+This outdoors map took me back to a hike I did in the Western Ghats of India. A tough lesson was learned: 
 - Carry more💧 than you think you need
 - Plan your hike to be under🌳 by high noon
 
-Having done neither of these things on a hike up to Gumtara Fort, I am lucky and thankful to be alive  🙏🏻
+I did neither of these things, and an additional source of anxiety was my phone's steadily-depleting battery, which was doing the most important thing: logging GPS for posterity. 
+
+I'm lucky and thankful to be alive, and also for the nice track that I can now look back on. Priorities are priorities, I guess.  
 
 [Felt map](https://rebrand.ly/x3jqtms)
 
@@ -261,22 +275,22 @@ Having done neither of these things on a hike up to Gumtara Fort, I am lucky and
 ## Day 21: Raster
 ![day21 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day21_raster/day21.png)
 
-Can you put these states in their proper places? 
+This day focused on using Felt as a game platform, since one could easily drop in raster files and rearrange them, which you can't do as easily in QGIS. Starting simple, I had to consider how to cut out the shapes of each state, which I did in Felt itself. Felt allowed me to import, move and scale images. 
 
-With Felt you can import, move and scale images all over the map! 
-
-🧩 Felt's interactive capabilities lended themselves to [this puzzle idea](https://rebrand.ly/i9t5erq).
-
-Made with QGIS + Python.
+The result: A virtual jigsaw puzzle 🧩 of US states, enabled by  Felt's interactive capabilities. Solve the puzzle [here](https://rebrand.ly/i9t5erq).
 
 State raster images from David Rumsey Map Center at Stanford University Libraries.
 
-
 ## Day 22: North is Not Always Up
 
-![day22 video](https://jaanekaraster.github.io/30-day-map-challenge-23/day22_north/day22.mp4)
+<video width="640" height="360" controls loop="" muted = "" autoplay="">
+  <source src="https://github.com/jaanekaraster/30-day-map-challenge-23/raw/refs/heads/main/day22_north/day22.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-🧭 1000 years ago, the Global South was the Global North!
+When we look at a standard world map, North is always "up." But North and South, up and down are abstract constructs that have no meaning outside the context we give them at this particular place and time. If you looked at a map made 1000 years ago, you'd see that today's "Global South" is actually "north" or "up." 
+
+This map sought to bring the medieval and modern together in a single animation. 
 
 ![day22 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day22_north/day22_1.png)
 
@@ -286,7 +300,7 @@ I georeferenced a German translation of al-Idrisi's 1154 Arabic-language map (fo
 
 The result: A vaguely recognizable world especially around the Mediterranean, but getting more and more fanciful as the cartographer speculated on what could be found at the map's far edges. See "Ard Magug" (the Biblical land of Gog and Magog) or "Ard Waq Waq" (Land of Waqwaq, excellent reading on [Arabic Wikipedia](https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%88%D8%A7%D9%82_%D9%88%D8%A7%D9%82)).
 
-It's still amazing that this level of cartographical accuracy could be achieved just using hand tools and mathematics!
+It's still amazing that this level of cartographical accuracy could be achieved in medieval times just using hand tools and mathematics!
 
 [Felt Map](https://rebrand.ly/yyphrrt)
 
@@ -297,7 +311,7 @@ It's still amazing that this level of cartographical accuracy could be achieved 
 
 Watching The Rings of Power series, I struggled to find a detailed map connecting these new locations to the familiar Middle-Earth map from The Hobbit and Lord of the Rings, set thousands of years later in the Third Age ("3D Age"). 
 
-Here is a more complete map made using QGIS, with 3D topographical features!
+So I made a more complete map made using QGIS, with 3D topographical features!
 
 Thanks to [ME-GIS](https://github.com/andrewheiss/ME-GIS) for the digital elevation model (DEM) of Middle-Earth. 
 
@@ -306,21 +320,23 @@ Thanks to [ME-GIS](https://github.com/andrewheiss/ME-GIS) for the digital elevat
 
 🔲🔳🔲🔳🔲🔳🔲🔳🔲
 
-Let's count the number of zebra crossings in "White Russia" (Belarus) and "Black Mountain" (Montenegro). 
+I decided to take "black and white" in the toponymic sense, namely focusing on Belarus (meaning "White Russia") and Montenegro (meaning "Black Mountain.") But why stop there? Let's get the number of zebra crossings in each to fit the theme. 
 
-🌎 Felt map: https://rebrand.ly/9b6d73
+[Felt Map](https://rebrand.ly/9b6d73)
 
-Made with OpenStreetMap (zebras 🦓 not included).
+Made with OpenStreetMap data (Zebras 🦓 not included).
 
 ## Day 25: Antarctica
 ![day25 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day25_antarctica/day25.png) 
 
-Is real-life "dust" (#HisDarkMaterials) revealing a portal to a parallel "anti-verse," where time flows backwards?
+Social media is giving us a lot more sensationalist material these days, blurring the line between our reality and the world of fantasy. A fan of the His Dark Materials (Golden Compass, etc.) series, this made me think about real-life places to find this mythical "dust" where the borders between worlds can be crossed. And what better place to look than one of the last frontiers--Antarctica?
 
-[ANITA](https://igc.psu.edu/collaborations/anita/), the Antarctic Impulsive Transit Antenna, has been making multiple flights to study hashtag#neutrinos--nearly massless particles that usually descend from space. However, scientists have observed at least two anomalous points in Antarctica where neutrinos actually are originating from under the ice. 
+In need of some inspiration for today's challenge, I came across an [article](https://www.lehman.edu/faculty/anchordoqui/ANITA-new-Scientist.pdf) on some mysterious particles which had been discovered in the Antarctic that could reveal a portal to a parallel "anti-verse", where time flows backwards. 
+
+[ANITA](https://igc.psu.edu/collaborations/anita/), the Antarctic Impulsive Transit Antenna, has been making multiple flights to study neutrinos--nearly massless particles that usually descend from space. However, scientists have observed at least two anomalous points in Antarctica where neutrinos actually are originating from under the ice. 
 Some believe this unusual neutrino behavior suggests the existence of a parallel universe or "anti-verse." 
 
-Here's a map showing two possible entry points to the anti-verse once the ice melts--if humans are still around by then. 
+Today's speculative map showed two possible entry points to the anti-verse once the ice melts--if humans are still around by then. 
 
 Made with QGIS and data from the British Antarctic Survey, University of Hawaii at Manoa, and NASA ([BEDMAP2](https://www.bas.ac.uk/project/bedmap-2/)). 
 
@@ -337,11 +353,13 @@ With only 4 locations in India, this map also took me minimal effort to make!
 ## Day 27: Dots
 ![day27 video](https://jaanekaraster.github.io/30-day-map-challenge-23/day27_dots/day27.gif)
 
+Municipalities are amazing sources of standardized data, so today's map used data from [Open Data DC](https://opendata.dc.gov/).
 
 ![day27 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day27_dots/day27.png)
 
-🚗 It's tough to be a driver in Washington, DC.
+With this data we can answer some important questions, like what it's like to be a driver in Washington, DC. Where are the most parking tickets issued, and how much revenue does this generate for the city? 
 
+The results: 
 Over 108,000 parking tickets were issued in June 2023 alone!
 ➡️ 96% were issued by the Department of Public Works
 ➡️ $6.2 million in fines were due, of which $2.2 million were paid
@@ -350,21 +368,21 @@ Over 108,000 parking tickets were issued in June 2023 alone!
 
 You can explore the stats with the [Felt Map](https://rebrand.ly/0owi5ei)
 
-Data from [Open Data DC](https://opendata.dc.gov/)
-
 Made using: 
 ➡️ QGIS and Topi Tjukanov's tutorial on [geogiffery with Time Manager plugin](https://medium.com/@tjukanov/geogiffery-in-a-nutshell-introduction-to-qgis-time-manager-31bb79f2af19)
 ➡️ Python (Pillow library) to turn the set of images into a GIF
 ➡️ Excel for pivot tables 
+
+This map also got a lot of support on social media, possibly because it was shiny and animated. 
 
 ## Day 28: Chart or Map
 ![day28 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day28_chartormap/day28.png)
 
 🏰 "Star Wars": Protecting cities with...shapes? 
 
-Bastion forts or "star forts" were all the rage in the 16th-19th centuries. For hundreds of years across Europe and its empires' colonial possessions, these forts' angular geometries and complex architecture stymied invading armies' cannon attacks--until more powerful munitions rendered their design completely irrelevant. 
+Bastion forts or "star forts" were all the rage in the 16th-19th centuries. For hundreds of years across Europe and its empires' colonial possessions, these forts' angular geometries and complex architecture stymied invading armies' cannon attacks. That is, until the development of more powerful munitions in the 19th century rendered their design completely irrelevant. 
 
-Here's a bastion fort in the town of Jaca, Spain, overlaid with a star map (or chart?) made in Excel. 
+Above is a bastion fort in the town of Jaca, Spain, overlaid with a star map (or chart?) made in Excel. So we have a chart, and a map. 
 
 How many star forts does your country have? [Explore the map with Felt.](https://rebrand.ly/r3w7hui)
 
@@ -374,11 +392,11 @@ Locations geocoded from Wikipedia with semi-trustworthy assistant ChatGPT.
 ☀️🌖🌗🌘🌑 
 ![day29 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day29_population/day29_1.png) 
 
-How many people will be able to simply look up and see an hashtag#eclipse?
+How many people will be able to simply look up and see an eclipse?
 
 ![day29 subimage](https://jaanekaraster.github.io/30-day-map-challenge-23/day29_population/day29_2.png) 
 
-In April 2024, there will be a total hashtag#solareclipse tracing a path across the hashtag#UnitedStates. 
+In April 2024, there will be a total solar eclipse tracing a path across the United States. 
 
 [Explore its path with the Felt map.](https://rebrand.ly/6a5891)
 
@@ -392,23 +410,15 @@ Data: NASA - National Aeronautics and Space Administration data on [2023 and 202
   Your browser does not support the video tag.
 </video>
 
-<video width="640" height="360" controls loop="" muted = "" autoplay="">
-  <source src="https://github.com/jaanekaraster/30-day-map-challenge-23/raw/refs/heads/main/day30_favorite/day30.mp4">
-  Your browser does not support the video tag.
-</video>
-
-
-![day30 video](https://jaanekaraster.github.io/30-day-map-challenge-23/day30_favorite/day30.mp4)
-
 🐍 Beyond Parseltongue: Harry Potter Translations
 
-Did you know that hashtag#HarryPotter is available in Latin, Yiddish, and Ancient Greek?
+Did you know that Harry Potter is available in Latin, Yiddish, and Ancient Greek?
 
 My parents gifted me Harry Potter and the Sorcerer's Stone in 1997 when they saw it at a bookstore. Little did they know then that it would turn into a global mania--becoming one of the world's most translated series of all time. 
 
 ![day30 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day30_favorite/day30.png)
 
-These books are available in 85 languages, and they continue to be translated into regional languages and dialects. Now if only someone would do hashtag#Klingon...
+These books are available in 85 languages, and they continue to be translated into regional languages and dialects. Now if only someone would do Klingon...
 
 🌍 Explore the [Felt Map](https://rebrand.ly/2uo6z0q) and see the book covers and translations for each language edition: 
 
@@ -423,19 +433,19 @@ A few thoughts that helped me get through this month's mapping marathon:
 ▶️ When you do find yourself doomscrolling through others' maps, see them as a source of inspiration rather than rivalry. What tech tools/design principles did they use? Incorporate these ideas into your own maps.
 ▶️ Likes and reposts don't necessarily reflect the amount of effort put into a map. Some maps that took me the shortest time to make ended up being the most "popular" due to social media algorithms that seem to reward colorful shiny objects...
 ▶️ Therefore, your assessment of what makes a map "good" needs to be found within yourself and how you value it, rather than through unpredictable waves of external validation. 
-▶️ Given the amount of hashtag#opendata out there, making your map stand out is more about how you translate that data into a map that shows thoughtful hashtag#design and tells a clear story to your audience (hashtag#datastorytelling).
-▶️ Finally, making web-worthy hashtag#maps is hard!
+▶️ Given the amount of open data out there, making your map stand out is more about how you translate that data into a map that shows thoughtful design and tells a clear story to your audience.
+▶️ Finally, making web-worthy maps is hard!
 
 With these thoughts in mind, sharing my approach and toolkit: 
-Unlike the previous year where I focused on making each map exclusively in hashtag#RStudio, this year I wanted to push the boundaries of Felt's new features and discover ways to automate the mapmaking process. 
+Unlike the previous year where I focused on making each map exclusively in RStudio, this year I wanted to push the boundaries of Felt's new features and discover ways to automate the mapmaking process. 
 
 ✨ ChatGPT: Quickly geocoding large data sets and debugging Python code
-🐍 Excel and hashtag#Python: Previewing, cleaning up and curating data sets 
+🐍 Excel and Python: Previewing, cleaning up and curating data sets 
 🌎 QGIS: Exploring geospatial data sets locally (useful for low-bandwidth situations during the Challenge) and creating/editing data
 🌐 Felt: Importing/styling maps, performing transformations like clipping and buffering on-the-fly, and unlocking a way to share and explore maps interactively
 
 Shoutout to Felt for accelerating the process to develop and deploy many of these maps! 
 
-Thanks also to Topi Tjukanov for starting this challenge and providing a space for aspiring and experienced hashtag#cartographers and hashtag#GIS experts to get creative, collaborate, and learn new skills.
+Thanks also to Topi Tjukanov for starting this challenge and providing a space for aspiring and experienced cartographers and GIS experts to get creative, collaborate, and learn new skills.
 
 
