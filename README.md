@@ -273,10 +273,6 @@ State raster images from David Rumsey Map Center at Stanford University Librarie
 
 
 ## Day 22: North is Not Always Up
-<video width="640" height="360" controls>
-  <source src="[day22 video](https://github.com/jaanekaraster/30-day-map-challenge-23/raw/refs/heads/main/day30_favorite/day30.mp4)" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ![day22 video](https://jaanekaraster.github.io/30-day-map-challenge-23/day22_north/day22.mp4)
 
@@ -390,6 +386,18 @@ Learn more from NASA's [2024 Total Solar Eclipse page](https://science.nasa.gov/
 Data: NASA - National Aeronautics and Space Administration data on [2023 and 2024 Solar Eclipses](https://svs.gsfc.nasa.gov/5073) and [Daylight Map Distribution](https://daylightmap.org/) 
 
 ## Day 30: Favorite
+
+<video width="640" height="360" controls loop="" muted = "" autoplay="">
+  <source src="https://github.com/jaanekaraster/30-day-map-challenge-23/raw/refs/heads/main/day30_favorite/day30.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<video width="640" height="360" controls loop="" muted = "" autoplay="">
+  <source src="https://github.com/jaanekaraster/30-day-map-challenge-23/raw/refs/heads/main/day30_favorite/day30.mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ![day30 video](https://jaanekaraster.github.io/30-day-map-challenge-23/day30_favorite/day30.mp4)
 
 🐍 Beyond Parseltongue: Harry Potter Translations
