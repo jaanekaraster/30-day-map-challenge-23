@@ -66,7 +66,6 @@ There are four species of crow native to India:
 - Eastern Jungle Crow (Corvus levaillantii)
 <h2 id="Day-1:-Points">Day 1: Points</h2>
 
-
 This map shows 30 days of citizen observations within a 30-km radius of Mumbai's Chhatrapati Shivaji Maharaj International Airport (BOM), the only place in the city where humans can take flight. 
 
 Data from [eBird](https://ebird.org) and using their [API](https://ebird-api-ui.com/observations/nearest-observations-of-a-species). 
@@ -367,22 +366,25 @@ With only 4 locations in India, this map also took me minimal effort to make!
 
 Municipalities are amazing sources of standardized data, so today's map used data from [Open Data DC](https://opendata.dc.gov/).
 
-![day27 image](https://jaanekaraster.github.io/30-day-map-challenge-23/day27_dots/day27.png)
-
 With this data we can answer some important questions, like what it's like to be a driver in Washington, DC. Where are the most parking tickets issued, and how much revenue does this generate for the city? 
 
 The results: 
 Over 108,000 parking tickets were issued in June 2023 alone!
 ➡️ 96% were issued by the Department of Public Works
+
 ➡️ $6.2 million in fines were due, of which $2.2 million were paid
+
 ➡️ 10% of all tickets issued were for parking during street cleaning
+
 ➡️ Typically, drivers worry about parking too close to a fire hydrant or stop sign, or parking beyond an allotted time. Yet these accounted for only 3% of tickets issued. 
 
 You can explore the stats with the [Felt Map](https://rebrand.ly/0owi5ei)
 
 Made using: 
 ➡️ QGIS and Topi Tjukanov's tutorial on [geogiffery with Time Manager plugin](https://medium.com/@tjukanov/geogiffery-in-a-nutshell-introduction-to-qgis-time-manager-31bb79f2af19)
+
 ➡️ Python (Pillow library) to turn the set of images into a GIF
+
 ➡️ Excel for pivot tables 
 
 This map also got a lot of support on social media, possibly because it was shiny and animated. 
@@ -441,11 +443,17 @@ Made with [Wikipedia data](https://en.wikipedia.org/wiki/List_of_Harry_Potter_tr
 This global online challenge doesn't involve competing against other cartographers for a prize. Instead, it's a competition perhaps more unsettling--you vs. your own expectations. 
 
 A few thoughts that helped me get through this month's mapping marathon:
+
 ▶️ Focus on your own growth, instead of comparing with others. There are many paths to completing the challenge (some considered to be unnatural), but find the tools that work best for you. They should be challenging enough that you push yourself, but not so challenging that you get stuck on one approach to making a map and never move on to the next one. 
+
 ▶️ When you do find yourself doomscrolling through others' maps, see them as a source of inspiration rather than rivalry. What tech tools/design principles did they use? Incorporate these ideas into your own maps.
+
 ▶️ Likes and reposts don't necessarily reflect the amount of effort put into a map. Some maps that took me the shortest time to make ended up being the most "popular" due to social media algorithms that seem to reward colorful shiny objects...
+
 ▶️ Therefore, your assessment of what makes a map "good" needs to be found within yourself and how you value it, rather than through unpredictable waves of external validation. 
+
 ▶️ Given the amount of open data out there, making your map stand out is more about how you translate that data into a map that shows thoughtful design and tells a clear story to your audience.
+
 ▶️ Finally, making web-worthy maps is hard!
 
 With these thoughts in mind, sharing my approach and toolkit: 
