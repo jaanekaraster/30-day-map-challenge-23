@@ -52,6 +52,21 @@ Check out my maps below--I'd love to [hear from you](https://www.jacobkohn.dev/)
 | 29   | **Population**  | A map featuring population data.      |[Solar Eclipse](https://jaanekaraster.github.io/30-day-map-challenge-23/day29_population/day29_1.png)  |
 | 30   | **Favorite Map** | Your favorite map (wild card). |[Harry Potter Translations](https://jaanekaraster.github.io/30-day-map-challenge-23/day30_favorite/day30.png) |
 
+<style>
+  .responsive-video {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio (16:9) */
+    height: 0;
+    overflow: hidden;
+  }
+  .responsive-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
 
 ## Day 1: Points
 
@@ -294,10 +309,13 @@ State raster images from David Rumsey Map Center at Stanford University Librarie
 
 ## Day 22: North is Not Always Up
 
-<video width="640" height="360" controls loop="" muted = "" autoplay="">
-  <source src="https://github.com/jaanekaraster/30-day-map-challenge-23/raw/refs/heads/main/day22_north/day22.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="responsive-video">
+  <video controls loop muted autoplay>
+    <source src="https://github.com/jaanekaraster/30-day-map-challenge-23/raw/refs/heads/main/day22_north/day22.mp4" type="video/mp4"> 
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 
 When we look at a standard world map, North is always "up." But North and South, up and down are abstract constructs that have no meaning outside the context we give them at this particular place and time. If you looked at a map made 1000 years ago, you'd see that today's "Global South" is actually "north" or "up." 
 
@@ -419,10 +437,13 @@ Data: NASA - National Aeronautics and Space Administration data on [2023 and 202
 
 ## Day 30: Favorite
 
-<video width="640" height="360" controls loop="" muted = "" autoplay="">
-  <source src="https://github.com/jaanekaraster/30-day-map-challenge-23/raw/refs/heads/main/day30_favorite/day30.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="responsive-video">
+  <video controls loop muted autoplay>
+    <source src="https://github.com/jaanekaraster/30-day-map-challenge-23/raw/refs/heads/main/day30_favorite/day30.mp4" type="video/mp4"> 
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 
 🐍 Beyond Parseltongue: Harry Potter Translations
 
